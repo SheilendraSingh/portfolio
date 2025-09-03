@@ -1,0 +1,12 @@
+@keyframes flyUp {
+  0% {
+    transform: translateX(-42%) translateY(2400%) rotate(-90deg); /* start below */
+  }
+  100% {
+    transform: translateX(-42%) translateY(300%) rotate(-90deg); /* end above container */
+  }
+}
+
+.plane-animation {
+  animation: flyUp 3s linear infinite;
+}
