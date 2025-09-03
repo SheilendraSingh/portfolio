@@ -28,7 +28,7 @@ export default function Education() {
     },
   ];
   return (
-    <section className="pt-24 pb-1  bg-[#1a0b2e] text-white px-8 flex justify-center">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#1a0b2e] text-white px-8">
       <div className="relative max-w-5xl w-full">
         {/* Vertical Line */}
         <div className="absolute min-h-[cal(100vh-5rem)] left-1/2 transform -translate-x-1/2 w-1 h-full bg-gray-300 rounded-lg">
