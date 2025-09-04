@@ -20,7 +20,7 @@ export default function Home() {
   }, [fullText]);
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#1a0b2e] text-white px-8">
+    <section className="flex flex-col md:flex-row items-center justify-between min-h-[calc(100vh-80px)] bg-[#1a0b2e] text-white pt-24 px-8">
       {/* Left side - text */}
       <div className="flex-1 text-center md:text-left ml-6 md:ml-40 group">
         <h1 className="text-xl md:text-4xl font-bold mb-4">

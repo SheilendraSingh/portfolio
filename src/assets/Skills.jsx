@@ -32,7 +32,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#1a0b2e] text-white px-8">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-80px)] bg-[#1a0b2e] text-white px-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-8 gap-y-8 p-32">
         {skills.map((skill, idx) => (
           <div key={idx} className="flex flex-col items-center m-6">
