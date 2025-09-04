@@ -19,6 +19,8 @@ export default function Skills() {
       color: "bg-orange-500",
       desc: "Markup language for web pages",
     },
+    { name: "CSS", color: "bg-blue-300", desc: "Flex, Grid, Animations" },
+    { name: "Tailwind", color: "bg-teal-400", desc: "Responsive UI" },
   ];
 
   useEffect(() => {
